@@ -1,8 +1,10 @@
 g++ -fopenmp file.cpp -o file
 
-Export OMP_NUM_THREADS = 4
+export OMP_NUM_THREADS = 4
 
  ./file
 
 
 cd desktop
+
+python3 filename.py
